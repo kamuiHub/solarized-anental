@@ -1,0 +1,33 @@
+{
+  "name": "solarized-anental",
+  "displayName": "solarized-anental",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "icon": "icon.jpg",
+  "publisher": "devkamui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamuiHub/solarized-anental"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "themes",
+    "dark theme",
+    "solarized"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "solarized-anental",
+        "uiTheme": "vs-dark",
+        "path": "./themes/solarized-anental-color-theme.json"
+      }
+    ]
+  }
+}
