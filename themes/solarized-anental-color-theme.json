@@ -38,15 +38,6 @@
 			}
 		},
 		{
-			"name": "Other",
-			"scope": [
-				//"variable.other.rust",
-			],
-			"settings": {
-				"foreground": "#FF0000",
-			}
-		},
-		{
 			"name": "Namespace",
 			"scope": [
 				"entity.name.namespace"
@@ -112,7 +103,6 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				//"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -139,7 +129,7 @@
 			}
 		},
 		{
-			"name": "Brackets", //don`t work
+			"name": "Brackets",
 			"scope": [
 				"punctuation.brackets.attribute",
 				"punctuation.brackets.round",
